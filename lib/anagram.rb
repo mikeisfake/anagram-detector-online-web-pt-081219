@@ -1,5 +1,5 @@
 # Your code goes here!
-
+require 'pry'
 class Anagram 
   
   attr_accessor :word 
@@ -11,7 +11,7 @@ class Anagram
   def match(match_array) 
     
     split_word = @word.split 
-    
+    binding.pry 
   end 
   
   
