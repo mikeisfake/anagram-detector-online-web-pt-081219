@@ -11,7 +11,7 @@ class Anagram
   def match(match_array) 
     
     split_word = @word.split(//).sort 
-    split_match_array = match_array.each { |i| i.split(//).sort }
+    split_match_array = match_array.map { |i| i.split(//).sort }
     binding.pry 
     
   end 
