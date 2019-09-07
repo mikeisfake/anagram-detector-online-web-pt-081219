@@ -12,7 +12,7 @@ class Anagram
     
     split_word = @word.split(//).sort 
     split_match_array = match_array.map { |i| i.split(//).sort }
-    binding.pry
+    
     matches = []
     
     split_match_array.each { |letters| letters == split_word ? matches << letters : nil }
