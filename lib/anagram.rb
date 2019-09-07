@@ -16,6 +16,7 @@ class Anagram
     matches = []
     
     split_match_array.each { |letters| letters == split_word ? matches << letters : nil }
+    matches
     
   end 
   
