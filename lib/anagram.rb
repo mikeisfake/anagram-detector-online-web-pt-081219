@@ -10,8 +10,8 @@ class Anagram
   
   def match(match_array) 
     
-    split_word = @word.split(//)
-    binding.pry 
+    split_word = @word.split(//).sort 
+    
   end 
   
   
