@@ -15,7 +15,7 @@ class Anagram
     binding.pry
     matches = []
     
-    split_match_array.each { |letters| letters == split_word ?  }
+    split_match_array.each { |letters| letters == split_word ? matches << letters : nil }
     
   end 
   
