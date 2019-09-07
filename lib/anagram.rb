@@ -11,8 +11,11 @@ class Anagram
   def match(match_array) 
     
     split_word = @word.split(//).sort 
-    split_match_array = match_array.map { |i| i.split(//).sort }
-    binding.pry 
+    split_match_array = match_array.map { |i| i.split(//).sort.flatten }
+    
+    matches = []
+    
+    # split_match_array.each { |letters| letters == split_word ?  }
     
   end 
   
